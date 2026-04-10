@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automating Data Import & Relationship Mapping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Automating Data Import & Relationship Mapping</h1>
+    <p>Using Import Sets & Dot Walking</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#import">Import Sets</a></li>
+        <li><a href="#dot">Dot Walking</a></li>
+        <li><a href="#workflow">Workflow</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+    </ul>
+</nav>
+
+<section id="intro">
+    <h2>Introduction</h2>
+    <p>
+        Automating data import and mapping relationships is essential for efficient data handling.
+        This approach reduces manual work and ensures data accuracy across systems.
+    </p>
+</section>
+
+<section id="import">
+    <h2>What are Import Sets?</h2>
+    <p>
+        Import Sets act as staging tables that temporarily store incoming data before it is transformed
+        into target tables. They help clean, validate, and process raw data efficiently.
+    </p>
+</section>
+
+<section id="dot">
+    <h2>What is Dot Walking?</h2>
+    <p>
+        Dot Walking allows you to access fields from related tables by referencing them using dot notation.
+        It simplifies retrieving linked data without complex queries.
+    </p>
+    <code>user.department.manager.name</code>
+</section>
+
+<section id="workflow">
+    <h2>Automation Workflow</h2>
+    <ol>
+        <li>Load data into Import Set</li>
+        <li>Create Transform Map</li>
+        <li>Map source to target fields</li>
+        <li>Use Dot Walking for relationships</li>
+        <li>Run transformation</li>
+    </ol>
+</section>
+
+<section id="benefits">
+    <h2>Benefits</h2>
+    <ul>
+        <li>Reduces manual data entry</li>
+        <li>Improves data accuracy</li>
+        <li>Efficient relationship mapping</li>
+        <li>Scalable for large datasets</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Data Automation Guide</p>
+</footer>
+
+</body>
+</html>
